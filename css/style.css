@@ -3,9 +3,6 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
-html {
-  height: 100%;
-}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -19,7 +16,7 @@ header {
 
 .container {
   width: 858px;
-  margin: 90px auto 0;
+  margin: auto;
   margin-top: -170px;
 }
 
