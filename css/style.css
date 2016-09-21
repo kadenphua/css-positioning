@@ -44,7 +44,7 @@ header {
   background: linear-gradient(#2e6593, #1d5c93);
   border: 1px solid black;
   border-radius: 2px;
-  padding: 5px 7px;
+  padding: 8px 8px;
   color: white;
 }
 
@@ -57,7 +57,7 @@ span {
 
 section {
   background: url("../img/frame.png") no-repeat;
-  padding: 15px 55px 25px 55px;
+  padding: 15px 40px 10px 55px;
 }
 
 h1 {
