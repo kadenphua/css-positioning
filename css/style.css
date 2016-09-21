@@ -3,6 +3,10 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+html {
+  height: 100%;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
@@ -13,22 +17,19 @@ header {
   background-color: #1c5380;
 }
 
-main {
+.container {
   width: 858px;
   margin: 90px auto 0;
+  margin-top: -170px;
 }
 
 .left {
   float: left;
-  position: relative;
-  top: -250px;
 }
 
 .right {
   float: right;
   width: 500px;
-  position: relative;
-  top: -250px;
 }
 
 .login {
@@ -50,16 +51,15 @@ span {
 
 section {
   background: url("../img/frame.png") no-repeat;
-  padding: 25px 55px 25px 55px;
+  padding: 15px 55px 25px 55px;
 }
 
 h1 {
   color: #06365f;
   font-size: 29px;
-  line-height: 1;
 }
 
-ul {
+.foot {
   clear: both;
   text-align: center;
 }
@@ -69,10 +69,9 @@ ul li {
   font-size: 11px;
   font-weight: bold;
   text-transform: uppercase;
-  margin: 0 8px;
-}
-
-a {
+  margin: 5px;
+  clear: both;
+  text-align: center;
   color: #1c5380;
   text-decoration: none;
 }
